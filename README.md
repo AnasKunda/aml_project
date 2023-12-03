@@ -21,6 +21,8 @@ Project Topic: Prediction of Expected Goals in soccer using machine learning
 
 ## Follow below table to refer code files:
 
+NOTE: follow the order of below table while referring files to understand the overall process better.
+
 |  File  |  Description  | Final Output |
 |  ---   |      ---      |    ---       |
 |data_prep_1.ipynb| Combine the JSON files: Competitions, Matches, Lineups and Events into four final dataframes.  | four pickle files each representing one of the four final dataframes. |
