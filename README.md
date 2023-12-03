@@ -2,6 +2,18 @@
 
 Project Topic: Prediction of Expected Goals in soccer using machine learning
 
+## Data:
+- Data has been taken from Statsbomb's [open data repository](https://github.com/statsbomb/open-data).
+- The data is provided in JSON files and divided in 4 types: Competitions, Matches, Lineups, Events.
+
+## Models:
+
+|  Model  |  Description  | 
+|  ---   |      ---      |
+|Baseline model| A Logistic Regression model trained to set a baseline performance.  | 
+|Improvised model | XgBoost (gradient boosted tree) model trained with advanced features. This is an improvisation over baseline model. | 
+|RxG model | XgBoost model trained with skewed data having higher xG values. This model is trained to predict xG relative to high performing players. | 
+
 ## File Types:
 
 - All project files are Jupyter notebooks, as it is easy to analyze the data and model performance.
